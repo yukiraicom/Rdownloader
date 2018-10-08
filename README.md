@@ -24,7 +24,7 @@ Or install it yourself as:
 
 Rdownloader.download("*")
 
-* == binary URL
+"*" == binary URL
 
 
 ## Development
