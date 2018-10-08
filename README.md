@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Rdownloader.download("*")
+
+* == binary URL
+
 
 ## Development
 
@@ -32,4 +35,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/Rdownloader.
+Bug reports and pull requests are welcome on GitHub at https://github.com/yukiraicom/Rdownloader.
