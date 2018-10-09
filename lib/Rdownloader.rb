@@ -18,7 +18,6 @@ module Rdownloader
     extension = path_origin.split(".")
     filenamevar2 = ".#{extension.last}"
     @@fileName = "#{filenamevar1}" + "#{filenamevar2}" #ここはスクレイピングする
-    binding.pry
     new_url = URI.encode(path) #string
     new_url_fileName = URI.decode(path).force_encoding('UTF-8')
     content_length = nil
