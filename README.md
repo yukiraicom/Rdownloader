@@ -25,7 +25,7 @@ Or install it yourself as:
 Rdownloader.download("*")
 
 "*" == binary URL
-
+example: https://upload.wikimedia.org/wikipedia/commons/0/0f/Ruby-logo-notext.png
 
 ## Development
 
