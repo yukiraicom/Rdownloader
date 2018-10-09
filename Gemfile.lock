@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Rdownloader (0.1.0)
+    Rdownloader (0.1.1)
       ruby-progressbar (~> 1.9.0)
 
 GEM
