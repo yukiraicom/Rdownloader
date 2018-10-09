@@ -15,8 +15,10 @@ module Rdownloader
     path = redirect_url #string
     path = path_origin if path.nil?
     filenamevar1 = "#{SecureRandom.hex(2)}" #適当なファイル名
-    filenamevar2 = ".pdf"
+    extension = path_origin.split(".")
+    filenamevar2 = ".#{extension.last}"
     @@fileName = "#{filenamevar1}" + "#{filenamevar2}" #ここはスクレイピングする
+    binding.pry
     new_url = URI.encode(path) #string
     new_url_fileName = URI.decode(path).force_encoding('UTF-8')
     content_length = nil

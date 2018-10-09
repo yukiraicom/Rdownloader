@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    Rdownloader (0.1.0)
+      ruby-progressbar (~> 1.9.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
+    ruby-progressbar (1.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  Rdownloader!
+  bundler (~> 1.16)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.3
